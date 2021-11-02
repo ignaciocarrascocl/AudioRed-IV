@@ -1,0 +1,186 @@
+body {
+  background: black;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  }
+h1,h2,h3,h4{
+  font-family: 'Poppins', sans-serif;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1rem;
+}
+h1 {
+  padding: 5rem;
+  text-align: center;
+}
+#headertop{
+  overflow: hidden;
+}
+.container {
+  max-width: 800px
+}
+.titulos {
+  padding: 2rem 1rem;
+}
+#player {
+  text-align: center;
+  padding: 3rem 0 1rem 0;
+}
+.menu {
+    display: flex;
+    align-content: center;
+    padding: 1rem 0;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    text-transform: uppercase;
+    justify-content: space-around;
+  align-items: center;
+}
+.menu span {
+  cursor: pointer;
+}
+.modal {
+  color: black;
+}
+#timer {
+    position: fixed;
+    top: 1rem;
+    right: 2rem;
+    background: white;
+    color: black;
+    width: auto;
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+}
+#controlers {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    display: flex;
+    align-content: center;
+    justify-content: left;
+    background: white;
+    width: auto;
+    padding: 6px;
+    border-radius: 20px;
+}
+.control {
+  height: 1rem;
+  width: 1rem;
+  border-radius: 1rem;
+  margin-right: 0.5rem;
+  
+}
+#colorOne {
+  background: blueviolet;
+}
+.logoSection a {
+    text-decoration: none;
+    color: black;
+    background: white;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px;
+    display: block;
+    font-style: italic;
+}
+#colorTwo {
+  background: OrangeRed;
+}
+#colorThree {
+  background: MidnightBlue;
+}
+#colorFour {
+  background: Black;
+}
+#logo {
+  max-height: 5rem
+}
+
+.modal-content {
+    background: black;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+h5 {
+    font-size: 2rem;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+}
+.btn-close {
+    transform: unset;
+    filter: invert(1);
+  border: 1px solid;
+}
+div#logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#logos img {
+    max-width: 125px;
+    min-width: 50px;
+    margin: 1rem;
+    max-height: 80px;
+}
+#programa .modal-body {
+    text-align: left;
+}
+.innerLogoB {
+    display: flex;
+}
+.innerLogo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#programa li {
+  margin-top: 0.5rem;
+}
+
+#footer {
+  margin-top: 2rem;
+  border-top: 5px solid white;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.menu a {
+  color: white;
+  text-decoration: none;  
+}
+#footer span {
+    width: 100%;
+    display: block;
+    font-size: 12px;
+    padding: 1rem 0;
+}
+.logoSection {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+@media (max-width: 767.98px) { 
+  h1, h2, h3 {
+    text-align: center;
+  }
+  .col-sm-12.col-md-4 {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+  .col-sm-12.col-md-8 {
+    text-align: center;
+}
+}

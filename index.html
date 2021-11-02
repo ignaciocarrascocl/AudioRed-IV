@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AUDIORED IV</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+<script src="script.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="headertop">
+  <div class="row">
+    <div class="col">
+      <h1>AUDIORED IV</h1>
+    </div>
+    <div id="timer"></div>
+    <div id="controlers">
+      <div class="control" id="colorOne"></div>
+      <div class="control" id="colorTwo"></div>
+      <div class="control" id="colorThree"></div>
+      <div class="control" id="colorFour"></div>
+    </div>
+  </div>
+</header>
+<div class="menu">
+  <span data-bs-toggle="modal" data-bs-target="#proyecto">
+    Proyecto
+  </span>
+  <span data-bs-toggle="modal" data-bs-target="#programa">
+    Programa
+  </span>
+  <a href="https://proyectosonec.org/">SÓNEC</a>
+</div>
+<div id="container">
+  <div class="container">
+    <div class="row maxwidth">
+      <div class="col">
+        <div id="player">
+          <audio controls>
+            <source src="horse.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col titulos">
+        <h2>Marea Idria</h2>
+        <h3>Lugar de Transmisión: Valparaíso, Chile.
+        </h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-4"><img class="img-fluid" src="https://via.placeholder.com/300.png" alt=""></div>
+      <div class="col-sm-12 col-md-8">
+        <p>Compositora, productora y cantante actualmente ubicada en Valparaíso, Chile. En su proyecto, Marea Idria combina la electrónica experimental con el synth-pop e influencias del trip-hop, utilizando sintetizadores, máquinas de ritmos, samples de voces etéreas y sonidos electrónicos de circuitos construidos por ella misma, lo que junto a sus melodías vocales da forma a una serie de canciones de envolvente atmósfera. En los últimos meses además, ha estado explorando la creación de piezas ambient - drone de larga duración, alejadas del formato canción en el que habitualmente presenta su trabajo</p>
+        <button type="button" class="btn btn-dark">Visitar sitio</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="footer">
+  <img src="https://i.ibb.co/Kjp7djc/logo-foot.png" alt="logo-foot" border="0">
+  <span>Sonoteca de Musica Experimental y Arte Sonoto</span>
+</div>
+
+<div class="modal fade" id="proyecto" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">PROYECTO</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>AUDIORED es un proyecto de streaming-audio dise&ntilde;ado por S&Oacute;NEC: Sonoteca de M&uacute;sica Experimental y Arte Sonoro desde el a&ntilde;o 2016. Este consiste en el desarrollo de una transmisi&oacute;n sonora de 6 horas contin&uacute;as por internet. El contenido de la transmisi&oacute;n est&aacute; a cargo de 12 artistas, m&uacute;sicxs y creadorxs, que desde diferentes puntos de Chile y del mundo (Espa&ntilde;a, Inglaterra y Francia,) presentan por 30 minutos sus obras en directo.</p>
+        <p>AUDIORED, surge como una plataforma de vinculaci&oacute;n y sociabilizaci&oacute;n para el &aacute;mbito de la comunidad sonora/experimental, donde cada participante colabora de forma indeterminada, en la construcci&oacute;n de una pieza de 6 horas, dando lugar a la aparici&oacute;n de diferentes matices sonoros en un espacio de trabajo com&uacute;n y horizontal que se da de manera natural. Desde su aparici&oacute;n, AUDIORED se concibe como una experiencia sonora virtual, que hace referencia a la recuperaci&oacute;n del suceso radial, por el valor que contiene en &eacute;l, la escucha activa. Tambi&eacute;n genera una red de complicidad, entre sus afines; equipo de trabajo, artistas y oyentes.</p>
+        <p>La emisi&oacute;n de AUDIORED es una acci&oacute;n transitoria, de simultaneidad geogr&aacute;fica, que pone en discusi&oacute;n, las distintas formas de uni&oacute;n entre el tiempo y las personas, desde la intimidad del espacio escogido por el o la artista, al tejido p&uacute;blico y variopinto del o la oyente.</p>
+        <p>En el contexto actual de crisis sanitaria del Covid-19, la IV edici&oacute;n de AUDIORED toma una nueva trascendencia, ya que ante la contingencia, el espacio virtual se ha extendido y nos ha permitido seguir en parte con nuestras funciones y convivencias. AUDIORED, no solo quiere brindar una experiencia de distensi&oacute;n en estos momentos, sino que tambi&eacute;n, desde nuestro confinamiento, &aacute;nima a encontrarnos para seguir contribuyendo a la creaci&oacute;n y disfrute del arte ante la pandemia.</p>
+        <p>AUDIORED IV&nbsp;se transmitir&aacute; el d&iacute;a S&aacute;bado 16 Mayo de 2020 entre las 15:00hrs. y las 21:00hrs. (Hora de Chile) de manera puntual por internet en el siguiente link de escucha: www.sonecarchivo.org/audiored.jsp</p>
+        <div class="row">
+          <div class="col" id="logos">
+            <div class="logoSection">
+              <span class="logoTitle">
+                Organiza:
+              </span>
+              <img src="https://i.ibb.co/9Zr4yPn/logo-sonec-tpte.png" alt="logo-sonec-tpte" border="0">
+              <span>
+                <a href="www.proyectosonec.org">www.proyectosonec.org</a>
+              </span>
+            </div>
+            <div class="logoSection">
+              <span class="logoTitle">
+                Colaboran:
+              </span>
+              <div class="innerLogoB">
+                <div class="innerLogo">
+                  <img src="https://i.ibb.co/L6YGBpH/logo-bilix-web.png" alt="logo-bilix-web" border="0">
+                  <span>
+                    <a href="www.bilix.cl">www.bilix.cl</a>
+                  </span>
+                </div>
+                <div class="innerLogo">
+
+                  <img src="https://i.ibb.co/Jv9PC7n/OVI-LOGO.jpg" alt="OVI-LOGO" border="0">
+                  <span>
+                    <a href="www.ovi.cl">www.ovi.cl</a>
+                  </span>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="programa" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">PROGRAMA</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        (Hora Chile UTC -4 )<br />
+        <ul>
+          <li>15:00 hrs - Diego Perinetti - Madrid, Espa&ntilde;a</li>
+          <li>15:30 hrs - Marea Idria - Valpara&iacute;so.</li>
+          <li>16:00 hrs - Camila Colussi - Londres, Inglaterra</li>
+          <li>16:30 hrs - Mart&iacute;n Bakero - Par&iacute;s, Francia</li>
+          <li>17:00 hrs - Georgina Canifr&uacute; - Santiago</li>
+          <li>17:30 hrs - Lautaro de las Casas - Santiago</li>
+          <li>18:00 hrs - Miguel Hern&aacute;ndez - Valpara&iacute;so</li>
+          <li>18:30 hrs - Ahilyn Ojeda - Linares</li>
+          <li>19:00 hrs - B&aacute;rbara Gonz&aacute;lez - Santiago</li>
+          <li>19:30 hrs - Lukax Santana - Vi&ntilde;a del Mar</li>
+          <li>20:00 hrs - Ce Pams - Santiago</li>
+          <li>20:30 hrs - Voodoochild/ - Valdivia</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
