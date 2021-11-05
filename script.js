@@ -28,10 +28,6 @@ resetButton.addEventListener("click", function(){
 document.body.style.backgroundColor = "black";
 });
 
-
-
-
-
 // Inicializar contador/reloj
 let timer = document.getElementById("timer");
 setInterval(function(){ 
